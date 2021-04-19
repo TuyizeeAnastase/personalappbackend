@@ -1,0 +1,49 @@
+{
+    "swagger": "2.0",
+    "info": {
+    "version": "1.0.0", 
+    "title": "My personal blog Project CRUD",
+    "description": "My personal blog Project Application API",
+    "license": {
+    "name": "MIT",
+    "url": "https://opensource.org/licenses/MIT"
+    }
+    },
+    "host": "localhost:5000",
+    "basePath": "/",
+    "tags": [
+    {
+    "name": "Anastase TUYIZERE",
+    "description": "API for blog in the system"
+    }
+    ],
+    "schemes": [
+    "http"
+    ],
+    "consumes": [
+    "application/json"
+    ],
+    "produces": [
+    "application/json"
+    ],
+
+    "paths": {
+        "/": {
+        "get": {
+        "tags": [
+        "Welcome to my persoanal blog"
+        ],
+        "summary": "welcome to this blog",
+        "responses": {
+        "200": {
+        "description": "OK",
+        "schema": {
+        "$ref": "#/definitions/"
+        }
+        }
+        }
+        }
+
+    }
+}
+}
